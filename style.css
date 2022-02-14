@@ -1,0 +1,145 @@
+.closed {
+    width: 40rem;
+    height: 50rem;
+    background-color: #d87093;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.open {
+    width: 80rem;
+    height: 50rem;
+    background-color: #d87093;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.closed .card-side {
+    height: 99%;
+    background-color: blueviolet;
+    width: 1.2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.open .card-side {
+    display: none;
+}
+
+.card-body-closed {
+    width:100%;
+    display:flex;
+    flex-direction: column;  
+    align-items: center;      
+    background-color: #d87093;    
+    background-image:  radial-gradient(#8a2be2 0.5px, transparent 0.5px), radial-gradient(#8a2be2 0.5px, #d87093 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.closed .card-body-opened {
+    display: none;
+}
+
+.open .card-body-closed {
+    display: none;
+}
+
+.open .lion {
+    display: none;
+}
+
+img {
+    width: 30rem;  
+    border: .5rem solid;
+    border-color: blueviolet;
+}
+
+.closed .header {
+    text-align: center;
+    font-family: 'Redressed';
+    color: #8a2be2;
+    font-size: 3.5em;    
+}   
+
+.open .header {
+    display: none
+}
+
+.closed .text {
+    text-align: center;
+    font-family: 'Redressed';
+    color: blueviolet;
+    font-size: 3.5em;     
+}
+
+.open-text {
+    text-align: center;
+    font-family: 'Redressed';
+    color: blueviolet;
+    font-size: 3em;     
+    display: block;
+    height: 8rem;
+}
+
+.open .text {
+    display: none
+}
+
+.closed audio {
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: #1a48c0;    
+    background-image:  radial-gradient(#943ca5 10px, transparent 0.5px), radial-gradient(#943ca5 0.5px, #1a48c0 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.closed .left {
+    display: none;
+}
+
+.closed .right {
+    display: none;
+}
+
+.open .left {
+    width: 40rem;
+    background-color: #d87093;    
+    background-image:  radial-gradient(#8a2be2 0.5px, transparent 0.5px), radial-gradient(#8a2be2 0.5px, #d87093 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.open .center {
+    width: 1.2rem;
+    height: 99%;
+    background-color: blueviolet;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.open .right {
+    width: 40rem;
+    background-color: #d87093;    
+    background-image:  radial-gradient(#8a2be2 0.5px, transparent 0.5px), radial-gradient(#8a2be2 0.5px, #d87093 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.open .card-side {
+    display: block;
+}

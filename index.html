@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    </head>
+    <body>        
+        <div class="card closed" id="card">
+            <div class="left">
+                <img src="lion_3.PNG" class="lion-open"/>
+                <img src="lion_4.PNG" class="lion-open"/>
+            </div>
+            <div class="card-side"> </div>    
+            <div class="center"> </div>    
+            <div class="right">
+                <h3 class="open-text">Can you feel the love tonight? :)</h3>
+                
+                <img src="lion_2.PNG" class="lion-open"/>
+                
+            </div>    
+
+            <div class="card-body-closed">                
+                <h1 class="header">
+                    Love is in the air tonight...
+                </h1>
+                <img src="lion_1.PNG" class="lion"/>
+                <h2 class="text">
+                    A special lion king themed valentine's day card made for Jasmine from Jesse!</h2>
+                </h2>
+                <audio controls autoplay loop id="playAudio">
+                    <source src="can_you_feel_the_love_tonight.mp3" type="audio/mpeg">  
+                </audio>                
+            </div>     
+            <div class="card-body-opened">
+                
+            </div>              
+            <button onclick="document.getElementById('card').classList.toggle('open'); document.getElementById('card').classList.toggle('closed');"></button>
+        </div>
+    </body>
+</html>
